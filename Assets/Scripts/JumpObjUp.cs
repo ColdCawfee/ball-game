@@ -7,7 +7,7 @@ public class JumpObjUp : MonoBehaviour {
     private Vector3 moveDirection = Vector3.zero;
     private CharacterController controller;
     private float jumpTime = 0.0f;
-    private float jumpTimeMax = 0.5f;
+    public float jumpTimeMax = 0.5f;
     private bool isJumping = false;
 
     void Start() {
